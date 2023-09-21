@@ -1,0 +1,247 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    background: #F0F2F5;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-one {
+    width: 51.3%;
+    height: 100dvh;
+    box-sizing: border-box;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial;
+    padding-left: 15px;
+    
+}
+
+.header {
+    margin-top: 1rem;
+    width: 102%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: black;
+}
+
+.signup a {
+    color: #20DC49;
+}
+.signup a:hover {
+    color: orangered;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.link-button {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.link-button a button {
+    border: 1px solid gray;
+    width: 7rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.link-button a button:hover{
+    border: 1px solid #20DC49;
+    background: #FFF;
+}
+
+.other-option {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.other-option hr {
+    border: 1px solid grey;
+    width: 7rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10rem;
+    padding-right: 10px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.input {
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    height: 2.5rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.input input {
+    width: 100%;
+    height: 2.5rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    outline: none;
+    font-size: 17px;
+    
+}
+
+.recover {
+    width: 22rem;
+    display: flex;
+    margin: 1.5rem 0 0 .8rem;
+    justify-content: space-evenly;
+    gap: 3rem;
+    
+}
+
+.remember-me {
+    display: flex;
+    gap: 6px;
+}
+
+.remember {
+    border: 1px solid gray;
+    width:32px;
+    height: 15px;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.remember button {
+    background-color: gray;
+    border: none;
+    width: 16px;
+    height: 15px;
+    border-radius: 50%;
+    padding-left: 2px;
+}
+
+.password-recovery a:hover  {
+    color: orangered;
+}
+.password-recovery a {
+    color: black;
+}
+
+.submit-btn {
+    border: 2px solid grey;
+    margin-top: 2rem;
+    margin-left: 4px;
+    width: 100%;
+    height: 2.5rem;
+    background: transparent;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    background: #20DC49;
+}
+.submit-btn button {
+    width: 100%;
+    height: 2.5rem;
+    background: transparent;
+    font-size: 17px;
+}
+.submit-btn:hover {
+    width: 100%;
+    height: 2.5rem;
+    background: #FFF;
+    border: 2px solid grey;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.section-two {
+    width: 619px;
+    height: 650.5px;
+    flex-shrink: 0;
+    background: url(./images/linkedin-sales-solutions-B_DJO2-K22M-unsplash\ 1.png);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    padding-bottom: 15.5px;
+}
+
+.section-two .filter-box {
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    background: rgba(255, 242, 242, 0.13);
+    backdrop-filter: blur(50px);
+    position: absolute;
+    top: 28.5rem;
+    left: 2.5rem;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 15px;
+    font-family: sans-serif;
+    padding: 27px 0 0 20px;
+}
+
+.section-two .top {
+    background: #20DC49;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.section-two .text p {
+    color: #fff;
+}
